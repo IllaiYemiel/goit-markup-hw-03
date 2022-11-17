@@ -25,8 +25,8 @@
   </head>
   <body>
     <!-- Шапка сайту -->
-    <header>
-      <div class="container header">
+    <header class="header section">
+      <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo"> <span>Web</span>Studio </a>
           <ul class="site-nav list">
@@ -48,7 +48,7 @@
     <!--Унікальний контент сторінки Студія-->
     <main>
       <!--Герой-->
-      <section class="hero">
+      <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-btn">Замовити послугу</button>
@@ -89,10 +89,10 @@
       </section>
 
       <!--Чим ми займаємося-->
-      <section class="direction">
+      <section class="direction section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="direction-list">
+          <ul class="direction-list list">
             <li class="direction-text">
               <img src="./images/img.jpg" alt="Десктопні додатки" width="370" height="294" />
             </li>
@@ -119,8 +119,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Ігор Дем'яненко</h3>
-              <p lang="en" class="text">Product Designer</p>
+              <div class="team-content">
+                <h3 class="name">Ігор Дем'яненко</h3>
+                <p lang="en" class="text">Product Designer</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -130,8 +132,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Ольга Рєпіна</h3>
-              <p lang="en" class="text">Frontend Developer</p>
+              <div class="team-content">
+                <h3 class="name">Ольга Рєпіна</h3>
+                <p lang="en" class="text">Frontend Developer</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -141,8 +145,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Микола Тарасов</h3>
-              <p lang="en" class="text">Marketing</p>
+              <div class="team-content">
+                <h3 class="name">Микола Тарасов</h3>
+                <p lang="en" class="text">Marketing</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -152,8 +158,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Михайло Єрмаков</h3>
-              <p lang="en" class="text">UI Designer</p>
+              <div class="team-content">
+                <h3 class="name">Михайло Єрмаков</h3>
+                <p lang="en" class="text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -165,7 +173,7 @@
       <div class="container">
         <a href="./index.html" class="footer-logo logo"> <span>Web</span>Studio </a>
         <address>
-          <ul class="footer-contacts">
+          <ul class="footer-contacts list">
             <li>
               <a
                 class="link-address"
